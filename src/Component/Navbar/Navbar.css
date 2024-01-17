@@ -1,0 +1,64 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Topbar{ 
+  background: var(--color-dark);
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 32%;
+}
+.searchBox{
+  border: 3px solid #3b4053;
+  border-radius: 2rem;
+  display: flex;
+  height: 2.5rem;
+  align-items: center;
+  background-color: var(--color-bg);
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  min-width: max-content;
+}
+
+.searchButton{
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #3b4053;
+  background: none;
+}
+.searchInput{
+  font-size: 1rem;
+  background: none;
+  color: #3b4053;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar_item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  gap: 1.8rem;
+  margin-right: 2rem;
+}
+.Profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border: 2px solid var(--color-white);
+  padding: 0.5rem;
+  border-radius: 50%;
+  
+}
+
